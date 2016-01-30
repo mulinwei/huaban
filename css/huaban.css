@@ -1,0 +1,146 @@
+ul,li,body{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+body{
+    background: url(../hj.jpg);
+    position: relative;
+    padding-top: 50px;
+    font-weight:bold;
+}
+.hasson div{
+    font-size: 25px;
+}
+.hasson li{
+    font-size: 18px;
+}
+.container{
+    width:800px;
+    height:auto;
+    margin: 0 350px;
+    border: 1px solid #666;
+    box-shadow: 0 0 10px black;
+    border-radius: 20px;
+}
+.menu{
+    width: 220px;
+    height: auto;
+    padding-left: 10px;
+    line-height: 30px;
+    background: #fff;
+    border-radius: 20px;
+    position: absolute;
+    left: 56px;
+    top: 110px;
+    z-index: 2;
+    cursor: pointer;
+    box-shadow: 0 0 10px black;
+}
+.menu .parent{
+    width: 100%;
+    height:40px;
+    line-height: 40px;
+    border-bottom:1px dashed rgba(56, 56, 56, 0.69);
+    position: relative;
+}
+.menu .parent div{
+    width:100%;
+    height:100%;
+}
+
+.son{
+    display: none;
+    position: absolute;
+    left: 220px;
+    top:0px;
+    width: 200px;
+    text-align: center;
+}
+.son li{
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    background:#fff;
+    float: left;
+    border-bottom: 1px dashed rgba(204, 204, 204, 0.3);
+    transition: all 2s ease;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.son li:hover{
+    background:black;
+    color:#fff;
+}
+.menu .parent:nth-child(4){
+    height: 90px!important;
+    padding-top:20px;
+    text-align: center;
+}
+.menu .parent:nth-child(5){
+    height: 80px!important;
+    padding-top:40px;
+    text-align: center;
+}
+.box{
+    width:100%;
+    height:600px;
+    position: relative;
+}
+.copy{
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:1;
+    width:100%;
+    height:100%;
+}
+.xp{
+    width: 8px;height: 8px;border: 1px solid #000;
+    position: absolute;left: 0;top: 0;
+    display: none;
+}
+.box canvas{
+    border-radius: 20px;
+    position:absolute;
+    left:0;
+    top:0;
+    background:#eee;
+}
+.selectarea{
+    width: 100px;height: 100px;
+    border:1px solid black;
+    position: absolute;
+    top:0;left: 0;
+    display: none;
+}
+.se{
+    width: 40px!important;height: 35px!important;
+    border: 1px solid black;
+    margin-left: 5px;
+    margin-top: 5px;
+    float: left;
+}
+.se:nth-of-type(1){
+    background: red;
+}
+.se:nth-of-type(2){
+    background: yellow;
+}
+.se:nth-of-type(3){
+    background: green;
+}
+.se:nth-of-type(4){
+    background: blue;
+}
+.se:nth-of-type(5){
+    background: black;
+}
+.se:nth-of-type(6){
+    background: gray;
+}
+.se:nth-of-type(7){
+    background: blueviolet;
+}
+.se:nth-of-type(8){
+    background: hotpink;
+}

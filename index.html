@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/huaban.css">
+    <link rel="stylesheet" href="css/font1.css">
+    <script src="js/jQuery.js"></script>
+    <script src="js/shape.js"></script>
+    <script src="js/canvas.js"></script>
+</head>
+<body>
+
+<ul class="menu">
+    <li class="parent hasson">
+        <div data-r="wenjian" title="文件"><span style="font-size:4px;font-weight:normal">&nbsp文件</span></div>
+        <ul class="son file">
+            <li data-r="xinjian" title="新建"></li>
+            <li data-r="baocun"  title="保存"></li>
+            <li data-r="fanghui"  title="返回"></li>
+        </ul>
+    </li>
+    <li  class="parent hasson">
+        <div data-r="gongju" title="画图"><span style="font-size:4px;font-weight:normal">&nbsp工具</span></div>
+        <ul class="son">
+            <li data-role="line" data-r="zhixian" title="线"></li>
+            <li data-role="rect" data-r="juxing" title="矩形"></li>
+            <li data-role="arc" data-r="yuan" title="圆"></li>
+            <li data-role="pen" data-r="qianbi" title="铅笔"></li>
+            <li data-role="five" data-r="wujiaoxin" title="五角星"></li>
+        </ul>
+    </li>
+    <li  class="parent hasson">
+        <div data-r="leixing" title="类型"><span style="font-size:4px;font-weight:normal">&nbsp类型</span></div>
+        <ul class="son">
+            <li data-r="kongxin" data-rol="stroke" title="画线"></li>
+            <li data-r="shixin"  data-rol="fill" title="填充"></li>
+        </ul>
+    </li>
+    <li  class="parent">
+        <div tittle="常用颜色" class="bgcolor">
+            <span style="position: absolute;left: 5px;top: -6px">常用颜色</span>
+            <div class="se" data="red"></div>
+            <div class="se" data="yellow"></div>
+            <div class="se" data="green"></div>
+            <div class="se" data="blue"></div>
+            <div class="se" data="black"></div>
+            <div class="se" data="green"></div>
+            <div class="se" data="blueviolet"></div>
+            <div class="se" data="hotpink"></div>
+        </div>
+    </li>
+    <li  class="parent">
+        <div tittle=填充颜色" class="borderColor"><span style="position: absolute;left: 5px;top: -6px">更多颜色</span><input type="color"></div>
+    </li>
+    <li  class="parent hasson">
+        <div data-r="xiantiao" title="线条"><span style="font-size:4px;font-weight:normal">&nbsp线宽</span></div>
+        <ul class="son">
+            <li data-r="cuxian" title="特粗" xiantiao="10"></li>
+            <li data-r="cu" title="粗" xiantiao="5"></li>
+            <li data-r="xixian" title="细" xiantiao="1"></li>
+        </ul>
+    </li>
+    <li  class="parent hasson">
+        <div data-r="xianpi" title="橡皮"><span style="font-size:4px;font-weight:normal">&nbsp橡皮</span></div>
+        <ul class="son xpsize">
+            <li data-role="6">小</li>
+            <li data-role="35">中</li>
+            <li data-role="65">大</li>
+        </ul>
+    </li>
+    <li  class="parent">
+        <div data-r="xuanze" title="选择" class="select"><span style="font-size:4px;font-weight:normal">&nbsp选择</span></div>
+    </li>
+</ul>
+
+<div class="container">
+
+    <div class="box">
+        <div class="copy"></div>
+        <canvas></canvas>
+        <div class="xp"></div>
+        <div class="selectarea"></div>
+    </div>
+</div>
+
+</body>
+</html>

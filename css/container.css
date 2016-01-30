@@ -1,0 +1,86 @@
+ul,li,body{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+body{
+    /*background: url(../bei.jpg);*/
+}
+.hasson div{
+    font-size: 25px;
+}
+.hasson li{
+    font-size: 18px;
+}
+.container{
+    width:800px;
+    height:auto;
+    margin: 0 auto;
+    border: 1px solid #666;
+}
+.menu{
+    width:100%;
+    height:30px;
+    text-align: center;
+    line-height: 30px;
+    background: #17aa3e;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+.menu .parent{
+    width:12.5%;
+    height:100%;
+    float: left;
+}
+.menu .parent div{
+    width:100%;
+    height:100%;
+}
+.menu .parent .son{
+    width:100%;
+}
+.box{
+    width:100%;
+    height:600px;
+    position: relative;
+}
+.copy{
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:1;
+    width:100%;
+    height:100%;
+}
+.box canvas{
+    position:absolute;
+    left:0;
+    top:0;
+    background:#eee;
+}
+.son{
+    display: none;
+    background:#aaa;
+}
+.son li{
+    background:#17aa3e;
+    border-bottom: 1px dashed rgba(204, 204, 204, 0.3);
+    transition: all 2s ease;
+}
+.son li:hover{
+    background:black;
+    color:red;
+}
+.xp{
+    width: 8px;height: 8px;border: 1px solid #000;
+    position: absolute;left: 0;top: 0;
+    display: none;
+}
+.selectarea{
+    width: 100px;height: 100px;
+    border:1px solid black;
+    position: absolute;
+    top:0;left: 0;
+    display: none;
+}
